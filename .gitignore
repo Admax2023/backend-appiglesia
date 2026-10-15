@@ -1,0 +1,20 @@
+# Entorno / virtualenv
+.venv/
+venv/
+
+# Cachés y tests locales
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Secrets locales (subir solo .env.example si existe)
+.env
+.env.*
+!.env.example
+
+# Datos privados / uploads internos
+storage_private/
+
+# Logs
+*.log
